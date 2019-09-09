@@ -15,15 +15,6 @@ const handleAwayScore = points =>{
   setAwayScore(awayScore + points);
 }
 
-  const [quarter, setQuarter] = useState(1);
-  const handleQuarter = i => {
-    if (quarter < 4){
-      setQuarter (i+ quarter);
-    }
-    else{
-      setQuarter(1);
-    }
-  }
   return (
     <div className="container">
       <section className="scoreboard">
@@ -41,7 +32,7 @@ const handleAwayScore = points =>{
             <div className="away__score">{awayScore}</div>
           </div>
         </div>
-        <BottomRow quarter = {quarter}/>
+        <BottomRow/>
       </section>
       <section className="buttons">
         <div className="homeButtons">
