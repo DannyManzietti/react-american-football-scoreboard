@@ -116,7 +116,34 @@
 .homeButtons__touchdown,
 .homeButtons__fieldGoal,
 .awayButtons__touchdown,
-.awayButtons__fieldGoal {
+.awayButtons__fieldGoal,
+.quarterButtons_increase, 
+.quarterButtons_decrease,
+.downButtons_increase,
+.downButtons_decrease,
+.downButtons_reset,
+.yardButtons_increase,
+.yardButtons_decrease,
+.yardButtons_reset {
   margin: 1rem;
   border-radius: 4px;
+}
+
+.quarterButtons_increase, 
+.quarterButtons_decrease,
+.downButtons_increase,
+.downButtons_decrease,
+.downButtons_reset,
+.yardButtons_increase,
+.yardButtons_decrease,
+.yardButtons_reset{
+  display: inline-block;
+  border: none;
+  padding: 5px;
+  margin: 0;
+  text-decoration: none;
+  background: #414141;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 1.6rem;
 }
